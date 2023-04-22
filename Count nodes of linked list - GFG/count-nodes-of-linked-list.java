@@ -27,11 +27,11 @@ class Solution
     {
         
         //Code here
-        Node temp = head;
-        int size=0;
-        while(temp!=null){
+        int size =0;
+        Node cur = head;
+        while(cur!=null){
+            cur = cur.next;
             size++;
-            temp = temp.next;
         }
         return size;
     }
