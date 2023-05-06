@@ -123,21 +123,22 @@ class Node
     }
 }
 */
+
+
 class GfG
 {
     // Return True if the given Binary Tree is a Full Binary Tree. Else return False
 	boolean isFullTree(Node root)
     {
         //add code here.
-        if(root==null)return true;
-        if(root.left ==null && root.right==null)return true;
-        if(root.left!=null && root.right!=null )
-        return (isFullTree(root.left)) && (isFullTree(root.right));
-        return false;
+       if(root==null)return true;
+       if(root.left==null && root.right==null)return true;
+       if(root.left!=null && root.right!=null)
+       return (isFullTree(root.left) && isFullTree(root.right));
+      return false;
+      
     }
 }
-
-
 
 
 
