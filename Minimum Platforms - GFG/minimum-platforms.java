@@ -41,25 +41,26 @@ class GFG
 
 //User function Template for Java
 
-
 class Solution
 {
     //Function to find the minimum number of platforms required at the
     //railway station such that no train waits.
     static int findPlatform(int arr[], int dep[], int n)
     {
-        // add your code her
-        Arrays.sort(arr);
+        // add your code here
         Arrays.sort(dep);
-        int i=0, j=0, p=1;
+        Arrays.sort(arr);
+        int  i=0; int j = 0; int p=1;
         while(i<n-1){
             if(dep[j]>=arr[i+1]){
-                p++;i++;
+                i++;p++;
             }else{
-                i++;j++;
+                j++;i++;
             }
         }
         return p;
+        
+    }
     
-     }
 }
+
