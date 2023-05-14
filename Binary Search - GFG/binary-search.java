@@ -31,12 +31,11 @@ import java.util.*;
 class Solution {
     int binarysearch(int arr[], int n, int k) {
         // code here
-        int count =-1;
-        for(int i=0; i<arr.length; i++){
+        for(int i=0; i<n; i++){
             if(arr[i]==k){
-                count =i;
+                return i;
             }
         }
-        return count;
+        return -1;
     }
 }
