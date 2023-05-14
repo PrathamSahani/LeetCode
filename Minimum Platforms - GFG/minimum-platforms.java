@@ -50,12 +50,12 @@ class Solution
         // add your code here
         Arrays.sort(dep);
         Arrays.sort(arr);
-        int  i=0; int j = 0; int p=1;
+        int i=0,j=0, p=1;
         while(i<n-1){
             if(dep[j]>=arr[i+1]){
                 i++;p++;
             }else{
-                j++;i++;
+                i++;j++;
             }
         }
         return p;
