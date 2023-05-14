@@ -47,22 +47,23 @@ class GFG {
 
 class Compute {
     public String isSubset( long a1[], long a2[], long n, long m) {
-         Arrays.sort(a1);
-         Arrays.sort(a2);
-         int i=0;int j=0;int count =0;
-         while(i<a1.length && j<a2.length){
-             if(a1[i]==a2[j]){
-                 i++;j++;count++;
-             }else if(a1[i]<a2[j]){
-                 i++;
-             }else{
-                 j++;
-             }
-         }
-         if(count==a2.length){
-             return "Yes";
-         }
-         return "No";
+          Arrays.sort(a1);
+          Arrays.sort(a2);
+          int i=0; int j=0;
+          int count =0;
+          while(i<a1.length && j<a2.length){
+              if(a1[i]==a2[j]){
+                  i++;j++;count++;
+              }else if(a1[i]<a2[j]){
+                  i++;
+              }else{
+                  j++;
+              }
+          }
+          if(count==a2.length){
+              return "Yes";
+          }
+          return "No";
         
     }
 }
