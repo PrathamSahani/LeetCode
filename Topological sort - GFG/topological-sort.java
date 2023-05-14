@@ -83,7 +83,7 @@ class Solution
         int i=0;
         while(!st.isEmpty()){
             ans[i] = st.peek();
-            i++;
+           i++;
             st.pop();
         }
         return ans;
