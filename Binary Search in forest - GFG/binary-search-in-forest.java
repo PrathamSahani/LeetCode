@@ -32,22 +32,23 @@ class Solution
 {
     static int find_height(int tree[], int n, int k)
     {
+      int low =0;
+      Arrays.sort(tree);
+      while(low<tree[n-1]){
+          int sum =0;
+          for(int i=0; i<n; i++){
+              if(tree[i]>low){
+                  sum+=tree[i]-low;
+              }
+              
+          }
+          if(sum==k){
+              return low;
+          }
+          low++;
+      }
+      return -1;
       
-       int low =0;
-       Arrays.sort(tree);
-       while(low<tree[n-1]){
-           int sum =0;
-           for(int i=0; i<n; i++){
-               if(tree[i]>low){
-                   sum+=tree[i]-low;
-               }
-           }
-           if(sum==k){
-               return low;
-           }
-           low++;
-       }
-       return -1;
         
     }
 }
