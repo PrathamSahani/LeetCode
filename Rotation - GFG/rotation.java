@@ -27,22 +27,22 @@ class GFG {
 // } Driver Code Ends
 
 
+
+
 // User function Template for Java
 
 class Solution {
     int findKRotation(int arr[], int n) {
-        // code here
         int res[] = new int[arr.length];
         for(int i=0; i<arr.length; i++){
             res[i] = arr[i];
         }
         Arrays.sort(res);
-        int count =0;
-        for(int i=0; i<arr.length; i++){
-            if(arr[i]==res[0]){
-                count=i;
-            }
-        }
-        return count;
+      for(int i=0; i<arr.length; i++){
+           if(arr[i]==res[0]){
+               return i;
+           }
+      }
+      return 0;
     }
 }
