@@ -38,17 +38,16 @@ class GFG
 
 class Solution {
     int median(int matrix[][], int R, int C) {
-        // code here  
-      ArrayList<Integer> list = new ArrayList<>();
+        // code here
+        int k=0;
+        int res[] = new int[matrix.length*matrix[0].length];
         for(int i=0; i<matrix.length; i++){
             for(int j=0; j<matrix[0].length; j++){
-               list.add(matrix[i][j]);
+                res[k] = matrix[i][j];
+                k++;
             }
         }
-        Collections.sort(list);
-        if(list.size()%2!=0){
-            return list.get(list.size()/2);
-        }
-        return list.get(list.size()/2+1);
+        Arrays.sort(res);
+        return res[res.length/2];
     }
 }
