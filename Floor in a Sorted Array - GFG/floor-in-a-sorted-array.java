@@ -37,6 +37,8 @@ class Searching
 
 
 
+
+
 class Solution{
     
     // Function to find floor of x
@@ -44,19 +46,21 @@ class Solution{
     // n is the size of array
     static int findFloor(long arr[], int n, long x)
     {
-      int l =0, r = n-1, ans = -1;
-      while(l<=r){
-          int mid = l+(r-l)/2;
-          if(arr[mid]>x){
-               r =  mid-1;
-          }else if(arr[mid]<x){
-              ans = mid;
-              l = mid+1;
-          }else if(arr[mid]==x){
-              ans = mid;
-              break;
-          }
-      }return ans;
+        int l=0, r = n-1, ans =-1;
+        while(l<=r){
+            int mid = l+(r-l)/2;
+            if(arr[mid]>x){
+                r =  mid-1;
+            }else if(arr[mid]<x){
+                ans = mid;
+                l = mid+1;
+            }else{
+                ans = mid;
+                break;
+            }
+        }
+        return ans;
+    
     }
     
 }
