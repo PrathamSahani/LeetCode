@@ -65,15 +65,17 @@ class GFG {
 
 class Solution {
     public static int longestOnes(int n, int[] nums, int k) {
-        // code here
+        // code here'
         int left =0, right =0;
-        while(right<n){
-            if(nums[right++]==0)
-            k--;
+        while(right<nums.length){
+            if(nums[right++]==0){
+                k--;
+            }
             if(k<0 && nums[left++]==0)
             k++;
         }
         return right-left;
+        
     }
 }
         
