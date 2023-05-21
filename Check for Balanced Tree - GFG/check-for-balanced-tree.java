@@ -127,48 +127,23 @@ class Node
 	}
 } */
 
-
 class Tree
 {
-    
+    static int solve(Node root){
+        if(root==null)return 0;
+        int left = solve(root.left);
+        if(left==-1)return -1;
+        int right = solve(root.right);
+        if(right==-1)return -1;
+        if(Math.abs(left-right)>1)return -1;
+        else
+        return Math.max(left, right)+1;
+    }
     //Function to check whether a binary tree is balanced or not.
     boolean isBalanced(Node root)
     {
-     	return dfs(root)!=-1;
-    }
-    int dfs(Node root){
-        if(root==null)return 0;
-        int lr = dfs(root.left);
-        if(lr==-1)return -1;
-        int rh = dfs(root.right);
-        if(rh==-1)return -1;
-        if(Math.abs(lr-rh)>1)return -1;
-        return Math.max(lr, rh)+1;
+	// Your code here
+	return solve(root)!=-1;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
