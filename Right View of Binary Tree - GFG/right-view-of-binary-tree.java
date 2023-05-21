@@ -137,21 +137,23 @@ class Solution{
         Queue<Node> q = new LinkedList<>();
         q.add(root);
         while(!q.isEmpty()){
-            int n = q.size();
-            for(int i=0; i<n; i++){
-                Node temp = q.poll();
-                if(i==n-1)
-                list.add(temp.data);
-                if(temp.left!=null)
-                q.add(temp.left);
-                if(temp.right!=null)
-                q.add(temp.right);
-            }
+             int size = q.size();
+             for(int i=0; i<size; i++){
+                 Node temp = q.poll();
+                 if(i==size-1){
+                     list.add(temp.data);
+                 }
+                 if(temp.left!=null){
+                 q.add(temp.left);}
+                 if(temp.right!=null){
+                 q.add(temp.right);}
+             }
         }
-        return list;
+        return list; 
     }
-    
 }
+
+
 
 
 
