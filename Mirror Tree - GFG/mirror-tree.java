@@ -127,10 +127,9 @@ class Node
 
 class Solution {
     public void swap(Node root){
-        if(root==null)return ;
+        if(root==null)return;
         swap(root.left);
         swap(root.right);
-        
         Node temp = root.left;
         root.left = root.right;
         root.right = temp;
@@ -141,10 +140,6 @@ class Solution {
         swap(node);
     }
 }
-
-
-
-
 
 
 
