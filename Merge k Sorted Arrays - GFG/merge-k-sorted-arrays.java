@@ -29,6 +29,10 @@ class GFG{
 // } Driver Code Ends
 
 
+//User function Template for Java
+
+
+
 
 //User function Template for Java
 
@@ -39,17 +43,18 @@ class Solution
     public static ArrayList<Integer> mergeKArrays(int[][] arr,int K) 
     {
         // Write your code here.
-        PriorityQueue<Integer> pq = new PriorityQueue<>();
-        for(int i=0; i<K; i++){
-            for(int j=0; j<K;j++){
-                pq.add(arr[i][j]);
-            }
+    PriorityQueue<Integer> pq = new PriorityQueue<>();
+    for(int i=0; i<K; i++){
+        for(int j=0; j<K; j++){
+            pq.add(arr[i][j]);
         }
-        ArrayList<Integer> list = new ArrayList<>();
-        while(!pq.isEmpty()){
-            list.add(pq.remove());
-        }
-        return list;
+        
+    }
+    ArrayList<Integer> list = new ArrayList<>();
+    while(!pq.isEmpty()){
+        list.add(pq.remove());
+    }
+    return list;
     
         
     }
