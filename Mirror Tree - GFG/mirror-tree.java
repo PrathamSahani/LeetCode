@@ -126,18 +126,18 @@ class Node
 } */
 
 class Solution {
-    public void swap(Node root){
-        if(root==null)return;
-        swap(root.left);
-        swap(root.right);
-        Node temp = root.left;
-        root.left = root.right;
-        root.right = temp;
+    public static void ans(Node root){
+        if(root==null)return ;
+        ans(root.left);
+        ans(root.right);
+        Node temp = root.right;
+        root.right = root.left;
+        root.left = temp;
     }
     // Function to convert a binary tree into its mirror tree.
     void mirror(Node node) {
         // Your code here
-        swap(node);
+        ans(node);
     }
 }
 
