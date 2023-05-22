@@ -129,21 +129,27 @@ class Node
 
 class Tree
 {
-    static int solve(Node root){
+    
+    int dfs(Node root){
         if(root==null)return 0;
-        int left = solve(root.left);
-        if(left==-1)return -1;
-        int right = solve(root.right);
-        if(right==-1)return -1;
-        if(Math.abs(left-right)>1)return -1;
-        else
-        return Math.max(left, right)+1;
+        int l = dfs(root.left);
+        if(l==-1)return -1;
+        int r = dfs(root.right);
+        if(r==-1)return -1;
+        if(Math.abs(l-r)>1)return -1;
+        return Math.max(l, r)+1;
     }
+    
     //Function to check whether a binary tree is balanced or not.
     boolean isBalanced(Node root)
     {
 	// Your code here
-	return solve(root)!=-1;
+	   if(dfs(root)==-1){
+	       return false;
+	   }return true;
+	   
     }
 }
+
+
 
