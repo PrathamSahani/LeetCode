@@ -146,7 +146,7 @@ class Tree
             Queue<Node> q = new LinkedList<>();
             q.add(root);
             while(q.size()>0){
-                Node temp = q.remove();
+                Node temp = q.poll();
                 while(temp!=null){
                     list.add(temp.data);
                     if(temp.left!=null)
