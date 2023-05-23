@@ -98,6 +98,10 @@ class GFG {
 
 // User function Template for Java
 
+
+
+// User function Template for Java
+
 class Solution {
     // Function to insert a node in a BST.
     Node insert(Node root, int key) {
@@ -113,5 +117,6 @@ class Solution {
             root.right = insert(root.right, key);
           
         }  return root;
+     
     }
 }
