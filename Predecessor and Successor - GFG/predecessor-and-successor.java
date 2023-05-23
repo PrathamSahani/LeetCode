@@ -112,6 +112,9 @@ class Node
 	}
 }
 */
+
+// This function finds predecessor and successor of key in BST.
+// It sets pre and suc as predecessor and successor respectively
 class GfG
 {
     public static void findPreSuc(Node root, Res floor, Res ceil, int key)
@@ -150,6 +153,7 @@ class GfG
         return floor;
     }
 }
+
 
 
 
