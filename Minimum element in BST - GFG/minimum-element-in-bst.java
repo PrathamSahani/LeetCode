@@ -117,27 +117,16 @@ class Node {
 }
 */
 class Tree {
-    static void solve(Node node , ArrayList<Integer> list){
-        if(node==null)return ;
-        solve(node.left, list);
-        list.add(node.data);
-        solve(node.right, list);
-        
-        
-    }
     // Function to find the minimum element in the given BST.
-    int minValue(Node node) {
-        ArrayList<Integer> list = new ArrayList<>();
-        solve(node, list);
-        Collections.sort(list);
-        if(list.size()==0)return -1;
-        return list.get(0);
+    int minValue(Node root) {
+        if(root==null)return -1;
+        if(root.left==null){
+            return root.data;
+        }
+        return minValue(root.left);
         
     }
 }
-
-
-
 
 
 
