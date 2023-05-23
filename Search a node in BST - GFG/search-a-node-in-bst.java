@@ -58,24 +58,17 @@ class Is_Node__Present_In_BST {
 
 
 class BST {
-    public static void search(Node root, ArrayList<Integer> list, int x){
-        if(root==null)return ;
-        search(root.left, list, x);
-        list.add(root.data);
-        search(root.right, list, x);
-        
-    }
     // Function to search a node in BST.
     boolean search(Node root, int x) {
         // Your code here
-        ArrayList<Integer> list = new ArrayList<>();
-        search(root, list, x);
-        Collections.sort(list);
-        for(int i=0; i<list.size(); i++){
-            if(list.get(i)==x){
-                return true;
-            }
+        if(root==null)return false;
+        if(root.data==x)return true;
+        if(root.data>x){
+           return  search(root.left, x);
         }
-        return false;
+        else{
+           return search(root.right, x);
+        }
+        
     }
 }
