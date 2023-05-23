@@ -88,22 +88,15 @@ class GFG
     {
       return end(root,1,Integer.MAX_VALUE);
     }
-    static boolean end(Node root,int min,int max){
-        if(root==null){
-            return false;
-         }
-         if(root.left==null && root.right==null){
-             if(min==max){
-                 return true;
-             }
-         }
-         return end(root.left,min,root.data-1) || end(root.right,root.data+1,max);
+   static boolean end(Node root, int min , int max){
+       if(root==null)return false;
+       if(root.left==null && root.right==null){
+           if(min==max)return true;
+       }
+       return end(root.left, min, root.data-1) || end(root.right, root.data+1, max);
+       
+   }
 }
-}
-
-
-
-
 
 
 
