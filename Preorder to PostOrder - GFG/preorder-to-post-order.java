@@ -41,32 +41,29 @@ class GFG {
 // } Driver Code Ends
 //User function Template for Java
 
-//User function Template for Java
 
-
-static Node bst(int a, Node root){
+//Function that constructs BST from its preorder traversal.
+static Node bst(int a, Node root){ 
     if(root==null)
     root = new Node(a);
-    else if(root.data>a)
-    root.left = bst(a, root.left);
-    else if(root.data<a)
-    root.right = bst(a, root.right);
+    if(root.data>a){
+        root.left  = bst(a, root.left);
+    }else if(root.data<a){
+        root.right = bst(a, root.right);
+    }
     return root;
+    
 }
-//Function that constructs BST from its preorder traversal.
 public static Node post_order(int pre[], int size) 
 {
     //Your code here
-    Node root = new Node(pre[0]) ;
-    // Node temp =root;
+    Node root = new Node(pre[0]);
     for(int i=0; i<size; i++){
         root = bst(pre[i], root);
-        
     }
-    return  root;
+    return root;
     
-}  
-
+} 
 
 //{ Driver Code Starts.
 
