@@ -96,6 +96,15 @@ class GFG
 // } Driver Code Ends
 
 
+/*
+class Node
+{
+    int data;
+    Node next;
+}
+*/
+
+
 
 
 
@@ -115,17 +124,17 @@ class Solution
         // remove the loop without losing any nodes
        Node slow = head;
        while(slow!=null && slow.next!=null){
-           if(slow.next.data ==Integer.MAX_VALUE){
-               slow.next =null;
+           if(slow.next.data == Integer.MAX_VALUE){
+               slow.next = null;
                break;
            }
            slow.data = Integer.MAX_VALUE;
            slow = slow.next;
        }
+       
+     
     }
 }
-
-
 
 
 
