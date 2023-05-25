@@ -120,29 +120,30 @@ class Node
 class GfG
 {
     
-    static Node merge(Node root1,Node root2){
+    static Node solve(Node root1, Node root2){
         if(root1==null)return root2;
-        if(root2==null)return root1;
-        if(root1.data<root2.data){
-            root1.bottom = merge(root1.bottom, root2);
+        if(root2 ==null)return root1;
+        if(root1.data <root2.data){
+            root1.bottom = solve(root1.bottom, root2);
             return root1;
         }else{
-            root2.bottom = merge(root1, root2.bottom);
-            return root2;
+            root2.bottom = solve(root1, root2.bottom);return root2;
         }
     }
+    
     Node flatten(Node root)
     {
 	// Your code here
-	Node ans = null;
-	Node temp = root;
-	while(temp!=null){
-	    ans = merge(ans, temp);
-	    temp = temp.next;
-	}
-	return ans;
+	           Node ans = null;
+	           Node temp = root;
+	           while(temp!=null){
+	               ans = solve(ans, temp);
+	               temp = temp.next;
+	           }
+	           return ans;
     }
 }
+ 
 
 
 
