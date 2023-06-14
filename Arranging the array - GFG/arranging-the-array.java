@@ -44,22 +44,20 @@ class Solution {
     public void Rearrange(int a[], int n)
     {
         // Your code goes here
-           ArrayList<Integer> list = new ArrayList<>();
-              ArrayList<Integer> list1 = new ArrayList<>();
-      for(int i=0; i<a.length; i++){
-          if(a[i]<0){
-              list.add(a[i]);
-          }else{
-              list1.add(a[i]);
-          }
-      }
-    //   for(int i=0; i<list1.size(); i++){
-    //       list.add(list1.add(i));
-    //   }
-    list.addAll(list1);
-      for(int i=0; i<a.length; i++){
-          a[i] = list.get(i);
-      }
-    
+        ArrayList<Integer> list = new ArrayList<>();
+        ArrayList<Integer> list1 = new ArrayList<>();
+        for(int i=0; i<a.length; i++){
+            if(a[i]<0){
+                list.add(a[i]);
+            }else{
+                list1.add(a[i]);
+            }
+        }
+        for(int i=0; i<list1.size(); i++){
+            list.add(list1.get(i));
+        }
+        for(int i=0; i<a.length; i++){
+            a[i] = list.get(i);
+        }
     }
 }
