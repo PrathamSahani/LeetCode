@@ -22,9 +22,6 @@ class GFG
 // } Driver Code Ends
 
 
-
-//User function Template for Java
-
 class Solution{
     static String longestPalin(String S){
         // code here
