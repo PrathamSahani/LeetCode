@@ -29,16 +29,16 @@ class GFG
 
 class Solution{
     static int evenlyDivides(int N){
-        int a = N;
-        int count=0 , b =0;
-        while(a>0){
-            b = a%10;
-            if(b>0 && N%b==0){
-                count++;
-            }
-            a/=10;
-        }
-        return count;
+       int a = N;
+       int count =0, b=0;
+       while(a>0){
+           b = a%10;
+           if(b>0 && N%b==0){
+               count++;
+           }
+           a /=10;
+       }
+       return count;
   
     }
 }
