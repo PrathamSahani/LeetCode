@@ -29,12 +29,12 @@ class Solution
     public String is_palindrome(int n)
     {
         // Code here
-        int sum =0, s=n;
-        while(n>0){
-            int d = n%10;
-            sum = sum*10+d;
-            n/=10;
-        }
+       int sum =0, s=n;
+       while(n>0){
+           int d = n%10;
+           sum= sum*10+d;
+           n/=10;
+       }
        if(sum==s){
            return "Yes";
        }
