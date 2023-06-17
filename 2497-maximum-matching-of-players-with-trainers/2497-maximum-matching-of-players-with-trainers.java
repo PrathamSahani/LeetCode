@@ -10,13 +10,7 @@ class Solution {
                   i--;
               }
           }
-        //   for(int i=players.length-1; i>0; i--){
-        //       for(int j=trainers.length-1; j>0; j--){
-        //           if(players[i]<=trainers[j]){
-        //               count++;
-        //           }
-        //       }
-        //   }
+       
           return count;
     }
 }
