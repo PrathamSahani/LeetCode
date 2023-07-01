@@ -17,8 +17,8 @@
      int pos;
      TreeNode node;
      Pair(int x, TreeNode y){
-         pos = x;
-         node = y;
+        pos = x;
+        node = y;
      }
  }
 class Solution {
@@ -27,28 +27,38 @@ class Solution {
         q.add(new Pair(0, root));
         int max = Integer.MIN_VALUE;
         while(!q.isEmpty()){
-            int size = q.size();
+            int n = q.size();
             int start =0, end =0;
-            for(int i=0; i<size; i++){
+            for(int i=0; i<n; i++){
                 Pair p = q.poll();
                 int pos = p.pos;
                 TreeNode node = p.node;
                 if(i==0){
                     start = pos;
-                }if(i==size-1){
+                }if(i==n-1){
                     end = pos;
-                }if(node.left!=null){
+                }
+                if(node.left!=null){
                     q.add(new Pair(2*pos+1, node.left));
                 }if(node.right!=null){
                     q.add(new Pair(2*pos+2, node.right));
                 }
             }
-            max = Math.max(max, end+1-start);
-
+            max = Math.max(max , end+1-start);
         }
         return max;
     }
+
 }
+
+
+
+
+
+
+
+
+
 
 
 
