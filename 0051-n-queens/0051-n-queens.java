@@ -1,60 +1,41 @@
 class Solution {
-    public List<List<String>> solveNQueens(int n) {
-        boolean[][] board = new boolean[n][n];
-        List<List<String>> answer = new ArrayList<>();
-        queens(board, 0, answer);
-        return answer;
-    }
-    void queens(boolean[][] board, int row, List<List<String>> answer){
-        if(row==board.length){
-            List<String> res = insert(board);
-            answer.add(res);
+    static void solve(int col, char[][] board, List<List<String>> res, int left[], int lowerDiagonal[], int upperDiagonal[]){
+        if(col==board.length){
+            res.add(construct(board));
             return;
         }
-        for(int col=0; col<board.length; col++){
-            if(isSafe(board, row, col)){
-                board[row][col] = true;
-                queens(board, row+1, answer);
-                board[row][col] = false;
+        for(int row=0; row<board.length; row++){
+            if(left[row]==0 && lowerDiagonal[row+col]==0 && upperDiagonal[board.length-1+col-row]==0){
+                board[row][col] ='Q';
+                left[row]=1;
+                lowerDiagonal[row+col]=1;
+                upperDiagonal[board.length-1+col-row]=1;
+                solve(col+1, board, res, left, lowerDiagonal, upperDiagonal);
+                board[row][col] ='.';
+                left[row]=0;
+                lowerDiagonal[row+col]=0;
+                upperDiagonal[board.length-1+col-row]=0;
             }
         }
     }
-    boolean isSafe(boolean[][] board, int row, int col){
-        //Vertical row;
-        for(int i=0; i<row;i++){
-            if(board[i][col]){
-                return false;
-            }
+    static List<String> construct(char[][] board){
+        List<String> res = new LinkedList<String>();
+        for(int i=0; i<board.length; i++){
+            String s = new String(board[i]);
+            res.add(s);
         }
-        //left diagonal
-        int maxleft = Math.min(row, col);
-        for(int i=1; i<=maxleft; i++){
-            if(board[row-i][col-i]){
-                return false;
-            }
-        }
-        //Right diagonal 
-        int maxRight = Math.min(row, board.length-col-1);
-        for(int i=1; i<=maxRight; i++){
-            if(board[row-i][col+i]){
-                return false;
-            }
-        }
-        return true;
+        return res;
     }
-    List<String> insert(boolean[][] board){
-        List<String> ans = new ArrayList<>();
-        for(boolean[] row: board){
-            String S ="";
-            for(boolean ele: row){
-                if(ele){
-                    S+="Q";
-                }else
-                    S+=".";
-                }
-                ans.add(S);
-            }
-            return ans;
-        
+    public List<List<String>> solveNQueens(int n) {
+          char[][] board = new char[n][n];
+        for (int i = 0; i < n; i++)
+            for (int j = 0; j < n; j++)
+                board[i][j] = '.';
+        List < List < String >> res = new ArrayList < List < String >> ();
+        int leftRow[] = new int[n];
+        int upperDiagonal[] = new int[2 * n - 1];
+        int lowerDiagonal[] = new int[2 * n - 1];
+        solve(0, board, res, leftRow, lowerDiagonal, upperDiagonal);
+        return res;
     }
 }
