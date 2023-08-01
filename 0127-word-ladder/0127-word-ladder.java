@@ -1,41 +1,45 @@
-class Pair{ 
-  String first;
-  int second;
-   Pair(String first, int second){
-    this.first = first;
-    this.second = second;
-  }
-}
+import java.util.*;
+
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-           Queue<Pair> q = new LinkedList<>();
-        q.add(new Pair(beginWord, 1));
-        HashSet<String> set = new HashSet<>();
-        int len = wordList.size();
-        for(int i=0; i<len; i++){
-            set.add(wordList.get(i));
+        Set<String> wordSet = new HashSet<>(wordList);
+        if (!wordSet.contains(endWord)) {
+            return 0; // End word must be in the wordList
         }
-        set.remove(beginWord);
-        while(!q.isEmpty()){
-            String word = q.peek().first;
-            int steps = q.peek().second;
-            q.remove();
-            if(word.equals(endWord)==true){
-                return steps;
-            }
-            for(int i=0; i<word.length(); i++){
-                for(char ch='a'; ch<='z'; ch++){
-                    char replace[] = word.toCharArray();
-                    replace[i] = ch;
-                    String replaceWord = new String(replace);
-                    if(set.contains(replaceWord)){
-                        set.remove(replaceWord);
-                        q.add(new Pair(replaceWord , steps+1));
+
+        Queue<String> queue = new LinkedList<>();
+        queue.offer(beginWord);
+        int level = 1; // To track the number of transformations
+
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            for (int i = 0; i < size; i++) {
+                String currentWord = queue.poll();
+
+                // Check if we reached the endWord
+                if (currentWord.equals(endWord)) {
+                    return level;
+                }
+
+                char[] charArray = currentWord.toCharArray();
+                for (int j = 0; j < charArray.length; j++) {
+                    char originalChar = charArray[j];
+                    for (char c = 'a'; c <= 'z'; c++) {
+                        if (c != originalChar) {
+                            charArray[j] = c;
+                            String transformedWord = new String(charArray);
+                            if (wordSet.contains(transformedWord)) {
+                                queue.offer(transformedWord);
+                                wordSet.remove(transformedWord); // Mark as visited
+                            }
+                        }
                     }
+                    charArray[j] = originalChar; // Restore the original character
                 }
             }
-            
+            level++; // Increment the transformation level after processing each level
         }
-        return 0;
+
+        return 0; // If no transformation sequence is found
     }
 }
