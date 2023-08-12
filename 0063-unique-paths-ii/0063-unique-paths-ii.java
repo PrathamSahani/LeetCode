@@ -1,24 +1,24 @@
-class Solution {
-    public static int f(int i, int j, int dp[][], int n[][]){
-        if(i>=0 && j>=0 && n[i][j]==1){
+public class Solution {
+    public int uniquePathsWithObstacles(int[][] obstacleGrid) {
+        if (obstacleGrid == null || obstacleGrid.length == 0 || obstacleGrid[0].length == 0 || obstacleGrid[0][0] == 1) {
             return 0;
         }
-        if(i==0 && j==0)return 1;
-        if(i<0 || j<0)return 0;
-        if(dp[i][j]!=-1)return dp[i][j];
-        int up = f(i-1, j, dp, n);
-        int left = f(i, j-1, dp, n);
-        return dp[i][j] = up+left;
-    }
-    public int uniquePathsWithObstacles(int[][] b) {
-         int n = b.length;
-         int m = b[0].length;
-         int dp[][] = new int[n][m];
-         for(int row[]: dp){
-             Arrays.fill(row, -1);
-         }
-         return f(n-1, m-1, dp, b);
 
+        int m = obstacleGrid.length;
+        int n = obstacleGrid[0].length;
 
+        int[] previous = new int[n];
+        int[] current = new int[n];
+        previous[0] = 1;
+
+        for (int i = 0; i < m; i++) {
+            current[0] = obstacleGrid[i][0] == 1 ? 0 : previous[0];
+            for (int j = 1; j < n; j++) {
+                current[j] = obstacleGrid[i][j] == 1 ? 0 : current[j-1] + previous[j];
+            }
+            System.arraycopy(current, 0, previous, 0, n);
+        }
+
+        return previous[n-1];
     }
 }
