@@ -1,37 +1,31 @@
 class Solution {
-    private static boolean cash(int[] arr, int max, int day){
-        int weight =0, days =1;
+    public static int fund(int arr[], int d){
+        int day =1;
+        int ans =0;
         for(int i=0; i<arr.length; i++){
-            if(weight+arr[i]>max){
-                days++;
-                weight = arr[i];
-            }else
-            weight+=arr[i];
-        }
-        // System.out.println(weight+" "+max+" "+days);
-        return days<=day;
+            if(ans+arr[i]<=d){
+                ans+=arr[i];
+            }else{
+                day++;
+                ans = arr[i];
             }
-    
+        }
+        return day;
+    }
     public int shipWithinDays(int[] weights, int days) {
-        int max =0;
-        int sum =0;
+        int low =0, high = 0;
         for(int i=0; i<weights.length; i++){
-            max = Math.max(weights[i], max);
-            sum+=weights[i];
+            low = Math.max(low, weights[i]);
+            high+=weights[i];
         }
-        int lo = max, hi = sum;
-        if(days==weights.length)return max;
-        int ans =-1;
-        while(lo<=hi){
-            int mid = lo+(hi-lo)/2;
-            if(cash(weights, mid, days)){
-                ans = mid;
-                hi = mid-1;
-            }else
-            lo = mid+1;
-        }
-        return ans;
-        
-        
+        while(low<=high){
+            int mid = (low+high)/2;
+            int ans = fund(weights, mid);
+            if(ans<=days){
+                high = mid-1;
+            }else{
+                low = mid+1;
+            }
+        }return low;
     }
 }
