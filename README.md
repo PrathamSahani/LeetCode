@@ -20,10 +20,12 @@ Collection of LeetCode questions to ace the coding interview!
 | [0031-next-permutation](https://github.com/PrathamSahani/LeetCode/tree/master/0031-next-permutation) |
 | [0048-rotate-image](https://github.com/PrathamSahani/LeetCode/tree/master/0048-rotate-image) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/PrathamSahani/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0128-longest-consecutive-sequence](https://github.com/PrathamSahani/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0648-replace-words](https://github.com/PrathamSahani/LeetCode/tree/master/0648-replace-words) |
 # Hash Table
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/PrathamSahani/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0648-replace-words](https://github.com/PrathamSahani/LeetCode/tree/master/0648-replace-words) |
 # Trie
 |  |
@@ -41,3 +43,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/PrathamSahani/LeetCode/tree/master/0048-rotate-image) |
+# Union Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/PrathamSahani/LeetCode/tree/master/0128-longest-consecutive-sequence) |
