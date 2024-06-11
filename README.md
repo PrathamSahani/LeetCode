@@ -24,12 +24,14 @@ Collection of LeetCode questions to ace the coding interview!
 | [0523-continuous-subarray-sum](https://github.com/PrathamSahani/LeetCode/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/PrathamSahani/LeetCode/tree/master/0648-replace-words) |
 | [1137-height-checker](https://github.com/PrathamSahani/LeetCode/tree/master/1137-height-checker) |
+| [1217-relative-sort-array](https://github.com/PrathamSahani/LeetCode/tree/master/1217-relative-sort-array) |
 # Hash Table
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/PrathamSahani/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0523-continuous-subarray-sum](https://github.com/PrathamSahani/LeetCode/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/PrathamSahani/LeetCode/tree/master/0648-replace-words) |
+| [1217-relative-sort-array](https://github.com/PrathamSahani/LeetCode/tree/master/1217-relative-sort-array) |
 # Trie
 |  |
 | ------- |
@@ -59,7 +61,9 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [1137-height-checker](https://github.com/PrathamSahani/LeetCode/tree/master/1137-height-checker) |
+| [1217-relative-sort-array](https://github.com/PrathamSahani/LeetCode/tree/master/1217-relative-sort-array) |
 # Counting Sort
 |  |
 | ------- |
 | [1137-height-checker](https://github.com/PrathamSahani/LeetCode/tree/master/1137-height-checker) |
+| [1217-relative-sort-array](https://github.com/PrathamSahani/LeetCode/tree/master/1217-relative-sort-array) |
