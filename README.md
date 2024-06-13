@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0648-replace-words](https://github.com/PrathamSahani/LeetCode/tree/master/0648-replace-words) |
 | [1137-height-checker](https://github.com/PrathamSahani/LeetCode/tree/master/1137-height-checker) |
 | [1217-relative-sort-array](https://github.com/PrathamSahani/LeetCode/tree/master/1217-relative-sort-array) |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/PrathamSahani/LeetCode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 # Hash Table
 |  |
 | ------- |
@@ -65,8 +66,13 @@ Collection of LeetCode questions to ace the coding interview!
 | [0075-sort-colors](https://github.com/PrathamSahani/LeetCode/tree/master/0075-sort-colors) |
 | [1137-height-checker](https://github.com/PrathamSahani/LeetCode/tree/master/1137-height-checker) |
 | [1217-relative-sort-array](https://github.com/PrathamSahani/LeetCode/tree/master/1217-relative-sort-array) |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/PrathamSahani/LeetCode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 # Counting Sort
 |  |
 | ------- |
 | [1137-height-checker](https://github.com/PrathamSahani/LeetCode/tree/master/1137-height-checker) |
 | [1217-relative-sort-array](https://github.com/PrathamSahani/LeetCode/tree/master/1217-relative-sort-array) |
+# Greedy
+|  |
+| ------- |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/PrathamSahani/LeetCode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
