@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0128-longest-consecutive-sequence](https://github.com/PrathamSahani/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0523-continuous-subarray-sum](https://github.com/PrathamSahani/LeetCode/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/PrathamSahani/LeetCode/tree/master/0648-replace-words) |
+| [0982-minimum-increment-to-make-array-unique](https://github.com/PrathamSahani/LeetCode/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1137-height-checker](https://github.com/PrathamSahani/LeetCode/tree/master/1137-height-checker) |
 | [1217-relative-sort-array](https://github.com/PrathamSahani/LeetCode/tree/master/1217-relative-sort-array) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/PrathamSahani/LeetCode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
@@ -64,15 +65,18 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/PrathamSahani/LeetCode/tree/master/0075-sort-colors) |
+| [0982-minimum-increment-to-make-array-unique](https://github.com/PrathamSahani/LeetCode/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1137-height-checker](https://github.com/PrathamSahani/LeetCode/tree/master/1137-height-checker) |
 | [1217-relative-sort-array](https://github.com/PrathamSahani/LeetCode/tree/master/1217-relative-sort-array) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/PrathamSahani/LeetCode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 # Counting Sort
 |  |
 | ------- |
+| [0982-minimum-increment-to-make-array-unique](https://github.com/PrathamSahani/LeetCode/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1137-height-checker](https://github.com/PrathamSahani/LeetCode/tree/master/1137-height-checker) |
 | [1217-relative-sort-array](https://github.com/PrathamSahani/LeetCode/tree/master/1217-relative-sort-array) |
 # Greedy
 |  |
 | ------- |
+| [0982-minimum-increment-to-make-array-unique](https://github.com/PrathamSahani/LeetCode/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/PrathamSahani/LeetCode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
