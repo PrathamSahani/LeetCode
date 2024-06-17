@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0075-sort-colors](https://github.com/PrathamSahani/LeetCode/tree/master/0075-sort-colors) |
 | [0151-reverse-words-in-a-string](https://github.com/PrathamSahani/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0344-reverse-string](https://github.com/PrathamSahani/LeetCode/tree/master/0344-reverse-string) |
+| [0633-sum-of-square-numbers](https://github.com/PrathamSahani/LeetCode/tree/master/0633-sum-of-square-numbers) |
 # String
 |  |
 | ------- |
@@ -51,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0048-rotate-image](https://github.com/PrathamSahani/LeetCode/tree/master/0048-rotate-image) |
 | [0523-continuous-subarray-sum](https://github.com/PrathamSahani/LeetCode/tree/master/0523-continuous-subarray-sum) |
+| [0633-sum-of-square-numbers](https://github.com/PrathamSahani/LeetCode/tree/master/0633-sum-of-square-numbers) |
 # Matrix
 |  |
 | ------- |
@@ -89,3 +91,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0502-ipo](https://github.com/PrathamSahani/LeetCode/tree/master/0502-ipo) |
+# Binary Search
+|  |
+| ------- |
+| [0633-sum-of-square-numbers](https://github.com/PrathamSahani/LeetCode/tree/master/0633-sum-of-square-numbers) |
