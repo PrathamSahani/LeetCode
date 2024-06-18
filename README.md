@@ -53,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/PrathamSahani/LeetCode/tree/master/0048-rotate-image) |
+| [0050-powx-n](https://github.com/PrathamSahani/LeetCode/tree/master/0050-powx-n) |
 | [0523-continuous-subarray-sum](https://github.com/PrathamSahani/LeetCode/tree/master/0523-continuous-subarray-sum) |
 | [0633-sum-of-square-numbers](https://github.com/PrathamSahani/LeetCode/tree/master/0633-sum-of-square-numbers) |
 # Matrix
@@ -100,3 +101,7 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0633-sum-of-square-numbers](https://github.com/PrathamSahani/LeetCode/tree/master/0633-sum-of-square-numbers) |
 | [0853-most-profit-assigning-work](https://github.com/PrathamSahani/LeetCode/tree/master/0853-most-profit-assigning-work) |
+# Recursion
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/PrathamSahani/LeetCode/tree/master/0050-powx-n) |
