@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0982-minimum-increment-to-make-array-unique](https://github.com/PrathamSahani/LeetCode/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1137-height-checker](https://github.com/PrathamSahani/LeetCode/tree/master/1137-height-checker) |
 | [1217-relative-sort-array](https://github.com/PrathamSahani/LeetCode/tree/master/1217-relative-sort-array) |
+| [1370-count-number-of-nice-subarrays](https://github.com/PrathamSahani/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/PrathamSahani/LeetCode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1675-magnetic-force-between-two-balls](https://github.com/PrathamSahani/LeetCode/tree/master/1675-magnetic-force-between-two-balls) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/PrathamSahani/LeetCode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
@@ -43,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0523-continuous-subarray-sum](https://github.com/PrathamSahani/LeetCode/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/PrathamSahani/LeetCode/tree/master/0648-replace-words) |
 | [1217-relative-sort-array](https://github.com/PrathamSahani/LeetCode/tree/master/1217-relative-sort-array) |
+| [1370-count-number-of-nice-subarrays](https://github.com/PrathamSahani/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 # Trie
 |  |
 | ------- |
@@ -58,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0050-powx-n](https://github.com/PrathamSahani/LeetCode/tree/master/0050-powx-n) |
 | [0523-continuous-subarray-sum](https://github.com/PrathamSahani/LeetCode/tree/master/0523-continuous-subarray-sum) |
 | [0633-sum-of-square-numbers](https://github.com/PrathamSahani/LeetCode/tree/master/0633-sum-of-square-numbers) |
+| [1370-count-number-of-nice-subarrays](https://github.com/PrathamSahani/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
 # Matrix
 |  |
 | ------- |
@@ -110,3 +113,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/PrathamSahani/LeetCode/tree/master/0050-powx-n) |
+# Sliding Window
+|  |
+| ------- |
+| [1370-count-number-of-nice-subarrays](https://github.com/PrathamSahani/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
