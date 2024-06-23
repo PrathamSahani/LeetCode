@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [1137-height-checker](https://github.com/PrathamSahani/LeetCode/tree/master/1137-height-checker) |
 | [1217-relative-sort-array](https://github.com/PrathamSahani/LeetCode/tree/master/1217-relative-sort-array) |
 | [1370-count-number-of-nice-subarrays](https://github.com/PrathamSahani/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/PrathamSahani/LeetCode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/PrathamSahani/LeetCode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1675-magnetic-force-between-two-balls](https://github.com/PrathamSahani/LeetCode/tree/master/1675-magnetic-force-between-two-balls) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/PrathamSahani/LeetCode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
@@ -102,6 +103,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0502-ipo](https://github.com/PrathamSahani/LeetCode/tree/master/0502-ipo) |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/PrathamSahani/LeetCode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 # Binary Search
 |  |
 | ------- |
@@ -117,3 +119,16 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [1370-count-number-of-nice-subarrays](https://github.com/PrathamSahani/LeetCode/tree/master/1370-count-number-of-nice-subarrays) |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/PrathamSahani/LeetCode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+# Queue
+|  |
+| ------- |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/PrathamSahani/LeetCode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+# Ordered Set
+|  |
+| ------- |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/PrathamSahani/LeetCode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+# Monotonic Queue
+|  |
+| ------- |
+| [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/PrathamSahani/LeetCode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
