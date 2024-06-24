@@ -140,3 +140,19 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/PrathamSahani/LeetCode/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
+# Tree
+|  |
+| ------- |
+| [0101-symmetric-tree](https://github.com/PrathamSahani/LeetCode/tree/master/0101-symmetric-tree) |
+# Depth-First Search
+|  |
+| ------- |
+| [0101-symmetric-tree](https://github.com/PrathamSahani/LeetCode/tree/master/0101-symmetric-tree) |
+# Breadth-First Search
+|  |
+| ------- |
+| [0101-symmetric-tree](https://github.com/PrathamSahani/LeetCode/tree/master/0101-symmetric-tree) |
+# Binary Tree
+|  |
+| ------- |
+| [0101-symmetric-tree](https://github.com/PrathamSahani/LeetCode/tree/master/0101-symmetric-tree) |
