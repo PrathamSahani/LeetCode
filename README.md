@@ -149,11 +149,13 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/PrathamSahani/LeetCode/tree/master/0101-symmetric-tree) |
+| [0207-course-schedule](https://github.com/PrathamSahani/LeetCode/tree/master/0207-course-schedule) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/PrathamSahani/LeetCode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 # Breadth-First Search
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/PrathamSahani/LeetCode/tree/master/0101-symmetric-tree) |
+| [0207-course-schedule](https://github.com/PrathamSahani/LeetCode/tree/master/0207-course-schedule) |
 # Binary Tree
 |  |
 | ------- |
@@ -163,3 +165,11 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/PrathamSahani/LeetCode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+# Graph
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/PrathamSahani/LeetCode/tree/master/0207-course-schedule) |
+# Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/PrathamSahani/LeetCode/tree/master/0207-course-schedule) |
