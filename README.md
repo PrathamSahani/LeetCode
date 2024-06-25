@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0075-sort-colors](https://github.com/PrathamSahani/LeetCode/tree/master/0075-sort-colors) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/PrathamSahani/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/PrathamSahani/LeetCode/tree/master/0128-longest-consecutive-sequence) |
+| [0152-maximum-product-subarray](https://github.com/PrathamSahani/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0330-patching-array](https://github.com/PrathamSahani/LeetCode/tree/master/0330-patching-array) |
 | [0502-ipo](https://github.com/PrathamSahani/LeetCode/tree/master/0502-ipo) |
 | [0523-continuous-subarray-sum](https://github.com/PrathamSahani/LeetCode/tree/master/0523-continuous-subarray-sum) |
@@ -55,6 +56,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/PrathamSahani/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0152-maximum-product-subarray](https://github.com/PrathamSahani/LeetCode/tree/master/0152-maximum-product-subarray) |
 # Math
 |  |
 | ------- |
