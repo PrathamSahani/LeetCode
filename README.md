@@ -144,10 +144,12 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/PrathamSahani/LeetCode/tree/master/0101-symmetric-tree) |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/PrathamSahani/LeetCode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 # Depth-First Search
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/PrathamSahani/LeetCode/tree/master/0101-symmetric-tree) |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/PrathamSahani/LeetCode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 # Breadth-First Search
 |  |
 | ------- |
@@ -156,3 +158,8 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/PrathamSahani/LeetCode/tree/master/0101-symmetric-tree) |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/PrathamSahani/LeetCode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+# Binary Search Tree
+|  |
+| ------- |
+| [1114-binary-search-tree-to-greater-sum-tree](https://github.com/PrathamSahani/LeetCode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
