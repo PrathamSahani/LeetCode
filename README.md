@@ -102,6 +102,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0502-ipo](https://github.com/PrathamSahani/LeetCode/tree/master/0502-ipo) |
 | [0853-most-profit-assigning-work](https://github.com/PrathamSahani/LeetCode/tree/master/0853-most-profit-assigning-work) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/PrathamSahani/LeetCode/tree/master/0982-minimum-increment-to-make-array-unique) |
+| [1285-balance-a-binary-search-tree](https://github.com/PrathamSahani/LeetCode/tree/master/1285-balance-a-binary-search-tree) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/PrathamSahani/LeetCode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 # Heap (Priority Queue)
 |  |
@@ -147,12 +148,14 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0101-symmetric-tree](https://github.com/PrathamSahani/LeetCode/tree/master/0101-symmetric-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/PrathamSahani/LeetCode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/PrathamSahani/LeetCode/tree/master/1285-balance-a-binary-search-tree) |
 # Depth-First Search
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/PrathamSahani/LeetCode/tree/master/0101-symmetric-tree) |
 | [0207-course-schedule](https://github.com/PrathamSahani/LeetCode/tree/master/0207-course-schedule) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/PrathamSahani/LeetCode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/PrathamSahani/LeetCode/tree/master/1285-balance-a-binary-search-tree) |
 # Breadth-First Search
 |  |
 | ------- |
@@ -163,10 +166,12 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0101-symmetric-tree](https://github.com/PrathamSahani/LeetCode/tree/master/0101-symmetric-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/PrathamSahani/LeetCode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/PrathamSahani/LeetCode/tree/master/1285-balance-a-binary-search-tree) |
 # Binary Search Tree
 |  |
 | ------- |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/PrathamSahani/LeetCode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/PrathamSahani/LeetCode/tree/master/1285-balance-a-binary-search-tree) |
 # Graph
 |  |
 | ------- |
@@ -175,3 +180,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/PrathamSahani/LeetCode/tree/master/0207-course-schedule) |
+# Divide and Conquer
+|  |
+| ------- |
+| [1285-balance-a-binary-search-tree](https://github.com/PrathamSahani/LeetCode/tree/master/1285-balance-a-binary-search-tree) |
