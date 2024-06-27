@@ -176,6 +176,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/PrathamSahani/LeetCode/tree/master/0207-course-schedule) |
+| [1916-find-center-of-star-graph](https://github.com/PrathamSahani/LeetCode/tree/master/1916-find-center-of-star-graph) |
 # Topological Sort
 |  |
 | ------- |
