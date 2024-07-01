@@ -200,6 +200,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Sorting
 |  |
 | ------- |
+| [0229-majority-element-ii](https://github.com/PrathamSahani/LeetCode/tree/master/0229-majority-element-ii) |
 | [2379-maximum-total-importance-of-roads](https://github.com/PrathamSahani/LeetCode/tree/master/2379-maximum-total-importance-of-roads) |
 ## Heap (Priority Queue)
 |  |
@@ -237,6 +238,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Array
 |  |
 | ------- |
+| [0229-majority-element-ii](https://github.com/PrathamSahani/LeetCode/tree/master/0229-majority-element-ii) |
 | [1293-three-consecutive-odds](https://github.com/PrathamSahani/LeetCode/tree/master/1293-three-consecutive-odds) |
 ## Linked List
 |  |
@@ -252,4 +254,12 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/PrathamSahani/LeetCode/tree/master/0019-remove-nth-node-from-end-of-list) |
+## Hash Table
+|  |
+| ------- |
+| [0229-majority-element-ii](https://github.com/PrathamSahani/LeetCode/tree/master/0229-majority-element-ii) |
+## Counting
+|  |
+| ------- |
+| [0229-majority-element-ii](https://github.com/PrathamSahani/LeetCode/tree/master/0229-majority-element-ii) |
 <!---LeetCode Topics End-->
