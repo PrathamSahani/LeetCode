@@ -1,32 +1,26 @@
 class Solution {
-    public int trap(int[] arr) {
-        int n = arr.length;
-        if (n <= 2) {
-            return 0;
+    public int trap(int[] height) {
+        int n = height.length;
+        int left = 0, right = n - 1;
+        int res = 0;
+        int maxLeft = 0, maxRight = 0;
+        while (left <= right) {
+            if (height[left] <= height[right]) {
+                if (height[left] >= maxLeft) {
+                    maxLeft = height[left];
+                } else {
+                    res += maxLeft - height[left];
+                }
+                left++;
+            } else {
+                if (height[right] >= maxRight) {
+                    maxRight = height[right];
+                } else {
+                    res += maxRight - height[right];
+                }
+                right--;
+            }
         }
-
-        int trappedWater = 0;
-
-        // Create two arrays to store the maximum height to the left and right of each position.
-        int[] leftMax = new int[n];
-        int[] rightMax = new int[n];
-
-        // Initialize the left and right max arrays.
-        leftMax[0] = arr[0];
-        for (int i = 1; i < n; i++) {
-            leftMax[i] = Math.max(leftMax[i - 1], arr[i]);
-        }
-
-        rightMax[n - 1] = arr[n - 1];
-        for (int i = n - 2; i >= 0; i--) {
-            rightMax[i] = Math.max(rightMax[i + 1], arr[i]);
-        }
-
-        // Calculate the trapped water at each position.
-        for (int i = 0; i < n; i++) {
-            trappedWater += Math.min(leftMax[i], rightMax[i]) - arr[i];
-        }
-
-        return trappedWater;
+        return res;
     }
 }
