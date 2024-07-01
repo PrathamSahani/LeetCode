@@ -238,6 +238,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Array
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/PrathamSahani/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0229-majority-element-ii](https://github.com/PrathamSahani/LeetCode/tree/master/0229-majority-element-ii) |
 | [1293-three-consecutive-odds](https://github.com/PrathamSahani/LeetCode/tree/master/1293-three-consecutive-odds) |
 ## Linked List
@@ -257,6 +258,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/PrathamSahani/LeetCode/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0042-trapping-rain-water](https://github.com/PrathamSahani/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/PrathamSahani/LeetCode/tree/master/0061-rotate-list) |
 ## Hash Table
 |  |
@@ -266,4 +268,16 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0229-majority-element-ii](https://github.com/PrathamSahani/LeetCode/tree/master/0229-majority-element-ii) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/PrathamSahani/LeetCode/tree/master/0042-trapping-rain-water) |
+## Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/PrathamSahani/LeetCode/tree/master/0042-trapping-rain-water) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/PrathamSahani/LeetCode/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
