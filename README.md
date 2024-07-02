@@ -201,6 +201,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0229-majority-element-ii](https://github.com/PrathamSahani/LeetCode/tree/master/0229-majority-element-ii) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/PrathamSahani/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [2379-maximum-total-importance-of-roads](https://github.com/PrathamSahani/LeetCode/tree/master/2379-maximum-total-importance-of-roads) |
 ## Heap (Priority Queue)
 |  |
@@ -219,6 +220,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/PrathamSahani/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/PrathamSahani/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Binary Tree
 |  |
 | ------- |
@@ -240,6 +242,7 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0042-trapping-rain-water](https://github.com/PrathamSahani/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0229-majority-element-ii](https://github.com/PrathamSahani/LeetCode/tree/master/0229-majority-element-ii) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/PrathamSahani/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1293-three-consecutive-odds](https://github.com/PrathamSahani/LeetCode/tree/master/1293-three-consecutive-odds) |
 ## Linked List
 |  |
@@ -260,10 +263,12 @@ Collection of LeetCode questions to ace the coding interview!
 | [0019-remove-nth-node-from-end-of-list](https://github.com/PrathamSahani/LeetCode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0042-trapping-rain-water](https://github.com/PrathamSahani/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/PrathamSahani/LeetCode/tree/master/0061-rotate-list) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/PrathamSahani/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Hash Table
 |  |
 | ------- |
 | [0229-majority-element-ii](https://github.com/PrathamSahani/LeetCode/tree/master/0229-majority-element-ii) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/PrathamSahani/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Counting
 |  |
 | ------- |
