@@ -242,6 +242,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/PrathamSahani/LeetCode/tree/master/0001-two-sum) |
 | [0042-trapping-rain-water](https://github.com/PrathamSahani/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0229-majority-element-ii](https://github.com/PrathamSahani/LeetCode/tree/master/0229-majority-element-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/PrathamSahani/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -271,6 +272,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/PrathamSahani/LeetCode/tree/master/0001-two-sum) |
 | [0229-majority-element-ii](https://github.com/PrathamSahani/LeetCode/tree/master/0229-majority-element-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/PrathamSahani/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Counting
