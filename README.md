@@ -256,6 +256,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0025-reverse-nodes-in-k-group](https://github.com/PrathamSahani/LeetCode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0061-rotate-list](https://github.com/PrathamSahani/LeetCode/tree/master/0061-rotate-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/PrathamSahani/LeetCode/tree/master/0237-delete-node-in-a-linked-list) |
+| [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/PrathamSahani/LeetCode/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/PrathamSahani/LeetCode/tree/master/2299-merge-nodes-in-between-zeros) |
 ## Recursion
 |  |
