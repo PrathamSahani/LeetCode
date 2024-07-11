@@ -292,6 +292,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/PrathamSahani/LeetCode/tree/master/0042-trapping-rain-water) |
+| [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/PrathamSahani/LeetCode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/PrathamSahani/LeetCode/tree/master/1720-crawler-log-folder) |
 ## Monotonic Stack
 |  |
@@ -318,5 +319,6 @@ Collection of LeetCode questions to ace the coding interview!
 ## String
 |  |
 | ------- |
+| [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/PrathamSahani/LeetCode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/PrathamSahani/LeetCode/tree/master/1720-crawler-log-folder) |
 <!---LeetCode Topics End-->
