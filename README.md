@@ -204,6 +204,7 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0229-majority-element-ii](https://github.com/PrathamSahani/LeetCode/tree/master/0229-majority-element-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/PrathamSahani/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0726-number-of-atoms](https://github.com/PrathamSahani/LeetCode/tree/master/0726-number-of-atoms) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/PrathamSahani/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [2379-maximum-total-importance-of-roads](https://github.com/PrathamSahani/LeetCode/tree/master/2379-maximum-total-importance-of-roads) |
 | [2846-robot-collisions](https://github.com/PrathamSahani/LeetCode/tree/master/2846-robot-collisions) |
@@ -283,6 +284,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0001-two-sum](https://github.com/PrathamSahani/LeetCode/tree/master/0001-two-sum) |
 | [0229-majority-element-ii](https://github.com/PrathamSahani/LeetCode/tree/master/0229-majority-element-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/PrathamSahani/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0726-number-of-atoms](https://github.com/PrathamSahani/LeetCode/tree/master/0726-number-of-atoms) |
 ## Counting
 |  |
 | ------- |
@@ -295,6 +297,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/PrathamSahani/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0726-number-of-atoms](https://github.com/PrathamSahani/LeetCode/tree/master/0726-number-of-atoms) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/PrathamSahani/LeetCode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/PrathamSahani/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/PrathamSahani/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -325,6 +328,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## String
 |  |
 | ------- |
+| [0726-number-of-atoms](https://github.com/PrathamSahani/LeetCode/tree/master/0726-number-of-atoms) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/PrathamSahani/LeetCode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/PrathamSahani/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/PrathamSahani/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
