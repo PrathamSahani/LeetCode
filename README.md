@@ -216,6 +216,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/PrathamSahani/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [2306-create-binary-tree-from-descriptions](https://github.com/PrathamSahani/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -230,6 +231,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/PrathamSahani/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [2306-create-binary-tree-from-descriptions](https://github.com/PrathamSahani/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -254,6 +256,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [1720-crawler-log-folder](https://github.com/PrathamSahani/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1803-average-waiting-time](https://github.com/PrathamSahani/LeetCode/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/PrathamSahani/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2306-create-binary-tree-from-descriptions](https://github.com/PrathamSahani/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2846-robot-collisions](https://github.com/PrathamSahani/LeetCode/tree/master/2846-robot-collisions) |
 ## Linked List
 |  |
@@ -285,6 +288,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0229-majority-element-ii](https://github.com/PrathamSahani/LeetCode/tree/master/0229-majority-element-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/PrathamSahani/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0726-number-of-atoms](https://github.com/PrathamSahani/LeetCode/tree/master/0726-number-of-atoms) |
+| [2306-create-binary-tree-from-descriptions](https://github.com/PrathamSahani/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 ## Counting
 |  |
 | ------- |
