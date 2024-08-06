@@ -302,6 +302,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/PrathamSahani/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0062-unique-paths](https://github.com/PrathamSahani/LeetCode/tree/master/0062-unique-paths) |
 ## Stack
 |  |
 | ------- |
@@ -327,6 +328,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Math
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/PrathamSahani/LeetCode/tree/master/0062-unique-paths) |
 | [1642-water-bottles](https://github.com/PrathamSahani/LeetCode/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/PrathamSahani/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/PrathamSahani/LeetCode/tree/master/2645-pass-the-pillow) |
@@ -342,4 +344,8 @@ Collection of LeetCode questions to ace the coding interview!
 | [1720-crawler-log-folder](https://github.com/PrathamSahani/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/PrathamSahani/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/PrathamSahani/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/PrathamSahani/LeetCode/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
