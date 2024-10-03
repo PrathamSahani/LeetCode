@@ -294,6 +294,7 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0001-two-sum](https://github.com/PrathamSahani/LeetCode/tree/master/0001-two-sum) |
 | [0012-integer-to-roman](https://github.com/PrathamSahani/LeetCode/tree/master/0012-integer-to-roman) |
+| [0013-roman-to-integer](https://github.com/PrathamSahani/LeetCode/tree/master/0013-roman-to-integer) |
 | [0229-majority-element-ii](https://github.com/PrathamSahani/LeetCode/tree/master/0229-majority-element-ii) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/PrathamSahani/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/PrathamSahani/LeetCode/tree/master/0560-subarray-sum-equals-k) |
@@ -334,6 +335,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0012-integer-to-roman](https://github.com/PrathamSahani/LeetCode/tree/master/0012-integer-to-roman) |
+| [0013-roman-to-integer](https://github.com/PrathamSahani/LeetCode/tree/master/0013-roman-to-integer) |
 | [0062-unique-paths](https://github.com/PrathamSahani/LeetCode/tree/master/0062-unique-paths) |
 | [1642-water-bottles](https://github.com/PrathamSahani/LeetCode/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/PrathamSahani/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -346,6 +348,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0012-integer-to-roman](https://github.com/PrathamSahani/LeetCode/tree/master/0012-integer-to-roman) |
+| [0013-roman-to-integer](https://github.com/PrathamSahani/LeetCode/tree/master/0013-roman-to-integer) |
 | [0726-number-of-atoms](https://github.com/PrathamSahani/LeetCode/tree/master/0726-number-of-atoms) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/PrathamSahani/LeetCode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/PrathamSahani/LeetCode/tree/master/1720-crawler-log-folder) |
